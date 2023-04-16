@@ -42,6 +42,8 @@ INSTALLATION AND RUN
 
 ACCESS THE URL
 -------------------
-index user ```http://localhost:8080/index.php?r=user%2Findex```
+index user <http://localhost:8080/index.php?r=user%2Findex>
+![user view](https://user-images.githubusercontent.com/68411459/232316265-e20fff35-19d6-4f8a-a7ad-0edab5d29c56.png)
 
-index role ```http://localhost:8080/index.php?r=role%2Findex```
+index role <http://localhost:8080/index.php?r=role%2Findex>
+![role view](https://user-images.githubusercontent.com/68411459/232316295-51f8e5be-2152-4263-8fcc-a32f54b2c549.png)
