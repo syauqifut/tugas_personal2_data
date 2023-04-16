@@ -17,9 +17,11 @@ class UserController extends Controller
             'totalCount' => $query->count(),
         ]);
 
-        $users = $query->orderBy('id')
+        $users = $query
+            ->joinWith(['role'])
             ->offset($pagination->offset)
             ->limit($pagination->limit)
+            ->orderBy('id')
             ->all();
 
         return $this->render('index', [

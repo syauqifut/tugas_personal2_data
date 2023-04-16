@@ -6,7 +6,7 @@ use yii\widgets\LinkPager;
 <ul>
 <?php foreach ($users as $user): ?>
     <li>
-        <?= $role->id . '. ' . $role->nama . ' : ' . $role->keterangan ?>
+        <?= $user->id . '. Nama : ' . $user->nama . ' / email : ' . $user->email . ' / password : ' . $user->password . ' / nomor HP : ' . $user->no_hp . ' / alamat : ' . $user->alamat . ' / role : ' . $user->role->nama ?>
     </li>
 <?php endforeach; ?>
 </ul>
