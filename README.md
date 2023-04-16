@@ -28,6 +28,7 @@ DIRECTORY STRUCTURE
         role/index.php
         user/index.php
       web/                contains the entry script and Web resources
+      tp2_data.sql
 
 
 INSTALLATION AND RUN
@@ -35,7 +36,8 @@ INSTALLATION AND RUN
 1. Clone this repository ```git clone git@github.com:syauqifut/tugas_personal2_data.git```
 2. Change directory to installation folder ```cd tugas_personal2_data```
 3. Install Composer ```composer install```
-4. Run by command ```php yii serve```
+4. Import tp2_data.sql in phpmyadmin
+5. Run by command ```php yii serve```
 
 
 ACCESS THE URL
